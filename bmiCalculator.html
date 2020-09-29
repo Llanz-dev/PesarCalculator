@@ -13,13 +13,18 @@
     <title>BMI Calculator</title>
 </head> 
 <body>
-
+    <h1 id="title" >BMI Calculator</h1>
     <div class="one">
-    <label for="height">Height:</label>
-    <input id="height" type="number">
+    <label class="hey" for="height">Height:</label>
+    <div class="three">
+    <label for="height">(Feet)</label>
+    <input id="feet" type="number" placeholder="ft">
+    <label for="height">(Inches)</label>
+    <input id="inch" type="number" placeholder="inch">
+    </div>
     
-    <label for="weight">Weight:</label>
-    <input id="weight" type="number">
+    <label class="hey" for="weight">Weight:</label>
+    <input id="kilogram" type="number" placeholder="kg">
     
     <input onclick="btnCalculate()" type="button" value="Calculate">
 

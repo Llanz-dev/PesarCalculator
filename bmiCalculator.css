@@ -5,25 +5,44 @@ body{
     padding: 0;
     margin: 0;
 }
+.hey{
+    font-weight: bold;
+}
+#title{
+    margin: .5rem 0;
+    font-size: 350%;
+}
 .one{
     border: 10px solid #F79F1F;
     border-radius: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2% auto 0 auto;
+    margin: 1% auto 0 auto;
     width: 50%;
+}
+.three{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.three input[type="number"]{
+    width: 15%;
 }
 .two{
     border: 10px solid #F79F1F;
     border-radius: 2rem;
 }
 label{
-    font-size: 300%;
+    font-size: 200%;
 }
 input[type="number"], input[type="button"]{
     padding: 1% 3%;
     border-radius: 2rem;
+    margin: 1rem 0;
+    text-align: center;
 }
 input[type="number"], input[type="button"]:focus{
     outline: none;
@@ -33,7 +52,6 @@ input::-webkit-inner-spin-button{
 }
 input[type="number"]{
     width: 50%;
-    margin: 2% 0;
     font-size: 200%;
     border: 10px solid #F79F1F;
 }
@@ -42,7 +60,7 @@ input[type="number"]:focus{
 }
 input[type="button"]{
     width: 30%;
-    margin: 1% 0;
+    margin: 1% 0 3% 0;
     background-color: #1289A7;
     border: none;
     font-size: 200%;
@@ -53,7 +71,7 @@ input[type="button"]:hover{
     background-color: #1398b9;
 }
 #displayResult{
-    font-size: 350%;
+    font-size: 300%;
 }
 h1{
     text-align: center;
