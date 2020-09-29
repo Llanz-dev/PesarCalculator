@@ -1,3 +1,50 @@
 body{
-    background-color: rgb(103, 112, 119);
+    background-color: #A3CB38;
+    font-family: cursive;
+    color: #1289A7;
+    padding: 0;
+    margin: 0;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3% auto 0 auto;
+    width: 50%;
+}
+label{
+    font-size: 300%;
+}
+input[type="number"], input[type="button"]{
+    padding: 1%;
+    border-radius: 2rem;
+}
+input[type="number"], input[type="button"]:focus{
+    outline: none;
+}
+input[type="number"]{
+    width: 50%;
+    margin: 2% 0;
+    font-size: 200%;
+    border: 10px solid #F79F1F;
+
+}
+input[type="number"]:focus{
+    border-color: #ecad4d;
+}
+input[type="button"]{
+    width: 30%;
+    margin: 1% 0;
+    background-color: #1289A7;
+    border: none;
+    font-size: 200%;
+    transition: .20s;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: #1398b9;
+}
+#displayResult{
+    font-size: 350%;
+    text-align: center;
 }

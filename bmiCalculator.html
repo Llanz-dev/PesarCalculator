@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
+    <!-- Icon -->
     <link rel="icon" href="https://img.icons8.com/fluent-systems-regular/24/000000/health-checkup.png">
+    <!-- Link CSS -->
     <link rel="stylesheet" href="bmiCalculator.css">
+    <!-- Title -->
     <title>BMI Calculator</title>
 </head> 
 <body>
 
-    <input id="weight" type="number" placeholder="Enter your weight in kg">
-    <input id="height" type="number" placeholder="Enter your height in m">
-    <button onclick="btnCalculate()">Calculate</button>
+
+    <div class="one">
+    <label for="height">Height:</label>
+    <input id="height" type="number">
+    
+    <label for="weight">Weight:</label>
+    <input id="weight" type="number">
+    
+    <input onclick="btnCalculate()" type="button" value="Calculate">
 
     <h1 id="displayResult">Display of Result</h1>
-
+    <h1 id="message"></h1>
+    </div>
     
     <script src="bmiCalculator.js"></script>
 </body>
