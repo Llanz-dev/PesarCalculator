@@ -3,40 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap" rel="stylesheet">
     <!-- Icon -->
     <link rel="icon" href="https://img.icons8.com/fluent-systems-regular/24/000000/health-checkup.png">
     <!-- Link CSS -->
-    <link rel="stylesheet" href="bmiCalculator.css">
+    <link rel="stylesheet" href="Meter.css">
     <!-- Title -->
     <title>BMI Calculator</title>
 </head> 
 <body>
     <h1 id="title" >BMI Calculator</h1>
     <div class="one">
-    <form action="/Meter.html">
-    <input type="submit" value="Meter">
+    <form action="/bmiCalculator.html">
+    <input class="submit" type="submit" value="Foot">
     </form>
     <label class="hey" for="height">Height:</label>
-    <div class="three">
-    <label for="height">(Feet)</label>
-    <input id="feet" type="number" placeholder="ft">
-    <label for="height">(Inches)</label>
-    <input id="inch" type="number" placeholder="inch">
-    </div>
-    
+    <input id="Meter" type="number" placeholder="Meter">
     <label class="hey" for="weight">Weight:</label>
     <input id="kilogram" type="number" placeholder="kg">
-    
     <input onclick="btnCalculate()" type="button" value="Calculate">
-
     <div class="two">
     <h1 id="displayResult">Display of Result</h1>
     <h1 id="message"></h1>
     </div>
     </div>
-    
-    <script src="bmiCalculator.js"></script>
+    <script src="Meter.js"></script>
 </body>
 </html>

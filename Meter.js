@@ -1,30 +1,8 @@
-/* 
-Height
-Foot was converted to inch
-foot = 1 && inch = 12 
-*/
-function feetInch(){
-    var inputFeet = +document.getElementById("feet").value;
-    var inputInch = +document.getElementById("inch").value;
-    inputFeet*=12;
-    var heightCalculation = inputFeet + inputInch;
-    heightCalculation = heightCalculation * heightCalculation;
-    return heightCalculation;
-}
-/* 
-Weight
-Kilogram was converted to pounds
-Kilogram = 1 && inch = 2.20642 
-*/
-function kilogram(){
-    var inputKilogram = +document.getElementById("kilogram").value;
-        inputKilogram *= 2.20462;
-        inputKilogram = Math.floor(inputKilogram);
-    return inputKilogram;
-}
 // Calculation
 function bmiCalculation(){
-    var result = (kilogram() / feetInch()) * 703;
+    var Meter = +document.getElementById("Meter").value;
+    var inputKilogram = +document.getElementById("kilogram").value;
+    var result =  inputKilogram / (Meter * Meter);
     result = result.toFixed(1);
     return result;
 }

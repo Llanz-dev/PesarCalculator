@@ -21,16 +21,6 @@ body{
     margin: 1% auto 0 auto;
     width: 50%;
 }
-.three{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.three input[type="number"]{
-    width: 15%;
-}
 .two{
     border: 10px solid #F79F1F;
     border-radius: 2rem;
