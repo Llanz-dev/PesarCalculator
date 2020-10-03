@@ -14,7 +14,7 @@ function feetInch(){
 /* 
 Weight
 Kilogram was converted to pounds
-Kilogram = 1 && inch = 2.20642 
+Kilogram = 1 && pounds = 2.20642 
 */
 function kilogram(){
     var inputKilogram = +document.getElementById("kilogram").value;

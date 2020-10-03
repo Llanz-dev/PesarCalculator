@@ -18,6 +18,9 @@
     <form action="/bmiCalculator/Meter.html">
     <input type="submit" value="Meter">
     </form>
+    <form action="/bmiCalculator/Inches.html">
+        <input type="submit" value="Inches">
+    </form>
     <label class="hey" for="height">Height:</label>
     <div class="three">
     <label for="height">(Feet)</label>
@@ -25,18 +28,14 @@
     <label for="height">(Inches)</label>
     <input id="inch" type="number" placeholder="inch">
     </div>
-    
     <label class="hey" for="weight">Weight:</label>
     <input id="kilogram" type="number" placeholder="kg">
-    
     <input onclick="btnCalculate()" type="button" value="Calculate">
-
     <div class="two">
     <h1 id="displayResult">Display of Result</h1>
     <h1 id="message"></h1>
     </div>
     </div>
-    
     <script src="bmiCalculator.js"></script>
 </body>
 </html>

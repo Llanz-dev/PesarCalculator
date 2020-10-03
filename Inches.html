@@ -6,21 +6,24 @@
     <!-- Icon -->
     <link rel="icon" href="https://img.icons8.com/fluent-systems-regular/24/000000/health-checkup.png">
     <!-- Link CSS -->
-    <link rel="stylesheet" href="Meter.css">
+    <link rel="stylesheet" href="Inches.css">
     <!-- Title -->
     <title>BMI Calculator</title>
 </head> 
 <body>
     <h1 id="title" >BMI Calculator</h1>
+    <div class="three">
+        <form action="/bmiCalculator/bmiCalculator.html">
+            <input class="submit" type="submit" value="Foot">
+            </form>
+            <form action="/bmiCalculator/Meter.html">
+            <input type="submit" value="Meter">
+        </form>
+    </div>
     <div class="one">
-    <form action="/bmiCalculator/bmiCalculator.html">
-    <input class="submit" type="submit" value="Foot">
-    </form>
-    <form action="/bmiCalculator/Inches.html">
-        <input type="submit" value="Inches">
-    </form>
+
     <label class="hey" for="height">Height:</label>
-    <input id="Meter" type="number" placeholder="Meter">
+    <input id="Meter" type="number" placeholder="Inches">
     <label class="hey" for="weight">Weight:</label>
     <input id="kilogram" type="number" placeholder="kg">
     <input onclick="btnCalculate()" type="button" value="Calculate">
@@ -29,6 +32,6 @@
     <h1 id="message"></h1>
     </div>
     </div>
-    <script src="Meter.js"></script>
+    <script src="Inches.js"></script>
 </body>
 </html>
