@@ -18,8 +18,8 @@ Kilogram = 1 && pounds = 2.20642
 */
 function kilogram(){
     var inputKilogram = +document.getElementById("kilogram").value;
-        inputKilogram *= 2.20462;
-        inputKilogram = Math.floor(inputKilogram);
+    inputKilogram *= 2.20462;
+    inputKilogram = Math.floor(inputKilogram);
     return inputKilogram;
 }
 // Calculation

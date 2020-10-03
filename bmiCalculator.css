@@ -84,3 +84,10 @@ input[type="button"]:hover, input[type="submit"]{
 h1{
     text-align: center;
 }
+.four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+}
