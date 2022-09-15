@@ -1,7 +1,7 @@
 # PesarCalculator
 
 ## Description
-PesarCalculator is a BMI calculator to determine if you're underweight, normal or overweight. There are 3 height metrics to choose from. Meter, inches, and feet.
+PesarCalculator is a BMI calculator to determine if you're underweight, normal or overweight. There are 3 height metrics to choose from. Meter, inches, and feet. The word "Pesar" means weigh in spanish.
 
 - It will calculate your BMI result depending on your height and weight.
 - I use HTML, CSS and JavaScript to make this project.
