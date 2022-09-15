@@ -19,7 +19,6 @@ Just clone this and open the **bmiCalculator.html**.
 ![open source](https://img.shields.io/badge/Open%20Source-%F0%9F%92%9A-white)
 ![GitHub contributors](https://img.shields.io/github/contributors/Llanz-dev/PesarCalculator)
 ![down](https://img.shields.io/github/downloads/Llanz-dev/PesarCalculator/total)
-![Django](https://img.shields.io/badge/django-4.1.1-brightgreen)
 ![forks](https://img.shields.io/github/last-commit/Llanz-dev/PesarCalculator)
 ![followers](https://img.shields.io/github/followers/Llanz-dev?style=social)
 ![stars](https://img.shields.io/github/stars/Llanz-dev?style=social)
